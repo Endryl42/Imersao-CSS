@@ -14,20 +14,14 @@ body {
 header {
     height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .menu {
     transition: 0.3s;
     position: fixed;
-    top: -25px;
-    padding: 10px 0px 10px 0px;
-    width: 100vw;
 }
 .menu:hover {
     background-size: auto;
-    top: 0px;
     background-color: whitesmoke;
 }
 .menu ul {
@@ -36,10 +30,6 @@ header {
 }
 .menu li {
     list-style: none;
-}
-
-.menu a{
-    display: block;
 }
 
 a {
